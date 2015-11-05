@@ -52,7 +52,25 @@ header nav ul li a {
   padding-bottom: 2rem;
   color: white; 
 }
-
+.figure {
+  float: right;
+  width: 75%;
+  height: 75%;
+  background-color: lightgray;
+}
+.figure img {
+  display: block; 
+  max-height: 7.5em;
+  min-height; 2em;
+  margin: 2rem auto 1rem auto;
+}
+.figure p {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: white; 
+}
 /*so this is the aside */
 
 .left {
@@ -70,6 +88,10 @@ header nav ul li a {
 
 .left nav ul li a {
  color: white;
+}
+.aside {
+  font-style: italic;
+  
 }
 
 /* this is the footer with the social icons */
