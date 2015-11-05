@@ -13,12 +13,12 @@ header h1 {
 header nav {
  height: auto;
  width: 100%; 
-  background-color: pink; 
+  background-color: lavender; 
 }
 header nav ul li { 
   float: left;
   width: 14.2%;
-  font-size: 1rem;
+  font-size: 1rem; 
   list-style-type: none;
   line-height: 2rem; 
   background-color: mediumpurple;
