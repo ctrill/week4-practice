@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  }
+header {
+  max-width: 100%;
+  padding-top: 3em 5em 1em;
+}
+header h1 {
+  text-align: center;
+  color: plum;
+}
+header nav {
+ height: auto;
+ width: 100%; 
+  background-color: pink; 
+}
+header nav ul li { 
+  float: left;
+  width: 14.2%;
+  font-size: 1rem;
+  list-style-type: none;
+  line-height: 2rem; 
+  background-color: mediumpurple;
+  padding: 0;
+  border: 1px solid black;
+}
+header nav ul li a {
+ color: white;
+  padding: .5rem 3.5rem;
+  margin-bottom: 3rem;
+}
+
+/* this is that main section with the food picture and text */
+
+.right {
+  float: right;
+  width: 75%;
+  height: 75%;
+  background-color: lightgray;
+}
+.right img {
+  display: block; 
+  max-height: 65%;
+  min-height; 15%;
+  margin: 4rem auto 2rem auto;
+}
+.right p {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: white; 
+}
+
+/*so this is the aside */
+
+.left {
+  clear: left;
+  float: left;
+  width: 25%;
+  height: 75%;
+  background-color: lightpink;
+  padding: 4rem 0 4rem 4rem;
+  margin: 0;
+}
+.left nav ul li {
+  padding: 1.75rem; 
+}
+
+.left nav ul li a {
+ color: white;
+}
+
+/* this is the footer with the social icons */
+
+footer {
+ clear:both; 
+  height: 25%; 
+  padding: 1rem 5rem;
+  border: 1px solid clear;
+}
+footer ul li {
+  float: left;
+  display: block; 
+  margin: 1rem;
+  padding: 1rem 5rem;
+} 
+  
