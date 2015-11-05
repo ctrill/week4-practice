@@ -52,11 +52,13 @@ header nav ul li a {
   padding-bottom: 2rem;
   color: white; 
 }
+
+/* this is the first branch off the main section */
 .figure {
   float: right;
   width: 75%;
   height: 75%;
-  background-color: lightgray;
+  background-color: cornflowerblue;
 }
 .figure img {
   display: block; 
@@ -70,6 +72,34 @@ header nav ul li a {
   text-align: center;
   padding-bottom: 2rem;
   color: white; 
+}
+
+/* this is the second branch off the main section */
+.demo {
+ float: right;
+  width: 75%;
+  height: 75%;
+  background-color: cadetblue;
+}
+.demo img {
+  display: block; 
+  max-height: 10em;
+  min-height; 2em;
+  margin: 2rem auto 1rem auto;
+  padding-bottom: .5rem;
+}
+.demo p {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: .5rem;
+  color: white; 
+}
+.demo ol li {
+  max-width: 75%;
+  margin: 0 auto; 
+  padding: 2rem 0 1rem 0;
+  color: firebrick;
 }
 /*so this is the aside */
 
