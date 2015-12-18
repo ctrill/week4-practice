@@ -42,7 +42,7 @@ header nav ul li a {
 .right img {
   display: block; 
   max-height: 65%;
-  min-height; 15%;
+  min-height: 15%;
   margin: 4rem auto 2rem auto;
 }
 .right p {
@@ -63,7 +63,7 @@ header nav ul li a {
 .figure img {
   display: block; 
   max-height: 7.5em;
-  min-height; 2em;
+  min-height: 2em;
   margin: 2rem auto 1rem auto;
 }
 .figure p {
@@ -84,7 +84,7 @@ header nav ul li a {
 .demo img {
   display: block; 
   max-height: 10em;
-  min-height; 2em;
+  min-height: 2em;
   margin: 2rem auto 1rem auto;
   padding-bottom: .5rem;
 }
@@ -138,4 +138,12 @@ footer ul li {
   margin: 1rem;
   padding: 1rem 5rem;
 } 
-  
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+  top:auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;  
+}
